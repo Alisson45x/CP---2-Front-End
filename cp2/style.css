@@ -8,20 +8,11 @@
 
 body {
   background:
-    linear-gradient(
-      rgba(0, 75, 173, 0.263),
-      rgba(0, 75, 173, 0.263),
-      rgba(0, 75, 173, 0.263)
-    ),
-    url("./imagem/fundo\ 3.jpg");
+    linear-gradient(rgba(0, 80, 9, 0.488)), url("./imagem/fundo\ 3.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.imagem-fundo {
-  width: 50vw;
 }
 
 .imagem-trofeu {
@@ -31,6 +22,11 @@ body {
   border-left: 4px solid rgb(255, 204, 0);
   border-radius: 15px;
   margin: 10px auto;
+}
+
+.imagem-trofeu:hover {
+  border-right: 4px solid rgb(5, 206, 82);
+  border-left: 4px solid rgb(5, 206, 82);
 }
 
 .cabecalho {
@@ -77,6 +73,11 @@ body {
   margin: 5px;
 }
 
+#sobre p:hover,
+#inscricao form:hover {
+  border-top: 3px solid rgb(5, 206, 82);
+}
+
 #sobre,
 #atividades,
 #programacao,
@@ -104,6 +105,11 @@ body {
   background-color: rgb(7, 7, 90);
 }
 
+.informacao:hover,
+#atividades .card:hover {
+  border-left: 3px solid rgb(5, 206, 82);
+}
+
 .informacao ul {
   width: 100%;
   max-width: 650px;
@@ -120,23 +126,32 @@ body {
   width: 100%;
   max-width: 850px;
   margin: 15px auto;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 18px;
+  overflow: hidden;
   background-color: rgb(7, 7, 90);
-  border: 2px solid bisque;
+  table-layout: fixed;
 }
 
 #programacao th {
   padding: 12px;
   background-color: rgb(255, 203, 0);
   color: rgb(48, 38, 129);
-  border: 2px solid bisque;
   font-size: 18px;
 }
 
 #programacao td {
   padding: 10px;
-  border: 2px solid bisque;
   font-size: 16px;
+}
+
+#programacao tbody tr:hover td {
+  background-color: rgb(28, 50, 95);
+}
+
+#programacao tbody tr:not(:last-child) td {
+  border-bottom: 2px solid rgba(255, 228, 196, 0.325);
 }
 
 #atividades .card {
