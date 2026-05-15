@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copa do Mundo 2026</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="container">
+        <h1><strong>Copa do Mundo 2026</strong></h1>
+        <p>Uma copa diferente com 48 seleções, 16 sedes e 1 só paixão!</p>
+
+        <nav class="menu">
+          <a href="#sobre">Sobre</a>
+          <a href="#atividades">Atividades</a>
+          <a href="#programacao">Programação</a>
+          <a href="#inscricao">Inscrição</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre" class="secao">
+        <div class="container">
+          <h2>Sobre o evento</h2>
+
+          <p>
+            A Copa do Mundo FIFA de 2026 será a 23ª edição do maior torneio de
+            futebol do planeta. Pela primeira vez na história, o evento será
+            sediado em três países simultaneamente: Estados Unidos, Canadá e
+            México. Com a expansão para 48 seleções, a competição promete ser a
+            maior e mais inclusiva de todos os tempos, celebrando a união dos
+            povos através do esporte em 16 cidades-sede icônicas.
+          </p>
+
+          <img
+            src="./Img/Copa-do-Mundo-2026-conheca-a-Trionda-bola-oficial-0021348700202510040824-3.webp  "
+            alt="Imagem do trofeu da copa com uma bola ao lado direito"
+            class="imagem-trofeu"
+          />
+
+          <h3>Informações importantes</h3>
+          <div class="informacao">
+            <ul>
+              <li><strong>Data:</strong> 11 de Junho a 19 de Julho de 2026</li>
+              <li><strong>Sedes:</strong> 16 cidades (EUA, Canadá e México)</li>
+              <li>
+                <strong>Público-alvo:</strong> Amantes de futebol e turistas do
+                mundo todo
+              </li>
+              <li>
+                <strong>Ingressos:</strong> Venda exclusiva pelo portal oficial
+                da FIFA
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="atividades" class="secao fundo-claro">
+        <div class="container">
+          <h2>Atividades do evento</h2>
+
+          <article class="card">
+            <h3>Abertura Oficial</h3>
+            <p>
+              O pontapé inicial será no histórico Estádio Azteca, na Cidade do
+              México, com um show de luzes celebrando a cultura norte-americana.
+            </p>
+            <p><strong>Horário:</strong> 15:00 (Horário Local)</p>
+          </article>
+
+          <article class="card">
+            <h3>FIFA Fan Festival</h3>
+            <p>
+              Áreas de lazer gratuitas espalhadas pelas cidades-sede com telões
+              gigantes, shows ao vivo e experiências gastronômicas locais.
+            </p>
+            <p><strong>Horário:</strong> Durante todo o dia</p>
+          </article>
+
+          <article class="card">
+            <h3>A Grande Final</h3>
+            <p>
+              O encerramento épico acontecerá no MetLife Stadium, em Nova
+              York/Nova Jersey, coroando o novo campeão mundial.
+            </p>
+            <p><strong>Horário:</strong> 20:00 (Horário Local)</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="programacao" class="secao">
+        <div class="container">
+          <h2>Programação</h2>
+
+          <table>
+            <tr>
+              <th>Horário</th>
+              <th>Atividade</th>
+              <th>Local</th>
+            </tr>
+
+            <tr>
+              <td>11/06 - 15:00</td>
+              <td>Jogo de Abertura (México x A2)</td>
+              <td>Estádio Azteca (CDMX)</td>
+            </tr>
+            <tr>
+              <td>12/06 - 13:00</td>
+              <td>Estreia do Canadá</td>
+              <td>BMO Field (Toronto)</td>
+            </tr>
+            <tr>
+              <td>12/06 - 19:00</td>
+              <td>Estreia dos EUA</td>
+              <td>SoFi Stadium (Los Angeles)</td>
+            </tr>
+            <tr>
+              <td>13/06 - 19:00</td>
+              <td>Estreia do Brasil</td>
+              <td>MetLife Stadium (Nova Jersey)</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="inscricao" class="secao fundo-claro">
+        <div class="container">
+          <h2>Inscrição</h2>
+
+          <form>
+            <label for="nome">Nome completo</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite seu nome"
+              required
+            />
+
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+              required
+            />
+
+            <label for="turma">Turma</label>
+            <input
+              type="text"
+              id="turma"
+              name="turma"
+              placeholder="Ex: 1ESPZ"
+              required
+            />
+
+            <label for="selecao">Qual seleção você vai torcer?</label>
+            <select id="selecao" name="selecao">
+              <option value="brasil">Brasil</option>
+              <option value="eua">Estados Unidos</option>
+              <option value="mexico">México</option>
+              <option value="canada">Canadá</option>
+              <option value="outra">Outra</option>
+            </select>
+
+            <label for="mensagem">Por que você quer ir à Copa?</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              placeholder="Conte-nos sua paixão pelo futebol..."
+            ></textarea>
+
+            <div class="checkbox-container">
+              <input type="checkbox" id="confirma" name="confirma" required />
+              <label for="confirma"
+                >Aceito receber novidades sobre ingressos.</label
+              >
+            </div>
+
+            <button type="submit">Enviar inscrição</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="container">
+        <p>
+          Desenvolvido por: RM 570269 - Guilherme Vidichosqui Men | RM 573681 -
+          Alisson Gomes
+        </p>
+        <p>Turma: 1ESPZ / 2026</p>
+        <p>Disciplina: Front-End Design</p>
+      </div>
+    </footer>
+  </body>
+</html>

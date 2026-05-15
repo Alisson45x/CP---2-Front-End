@@ -1,0 +1,201 @@
+@charset 'UTF-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem-trofeu {
+  display: block;
+  width: 50vw;
+  border: 3px solid rgb(255, 204, 0);
+  border-radius: 2px;
+  margin: 10px auto;
+}
+
+.cabecalho {
+  background-color: rgb(0, 156, 59);
+  color: bisque;
+  border-bottom: 5px solid rgb(255, 204, 0);
+}
+
+.cabecalho div {
+  padding: 25px;
+  text-align: center;
+}
+
+.menu {
+  margin: 10px auto;
+}
+
+.menu a {
+  background-color: rgb(48, 38, 129);
+  color: bisque;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#sobre p {
+  background-color: rgb(7, 7, 90);
+  padding: 10px;
+  border-top: 3px solid rgb(255, 204, 0);
+  border-radius: 25px;
+  margin: 5px;
+}
+
+#sobre,
+#atividades,
+#programacao,
+#inscricao {
+  color: bisque;
+  margin: 50px;
+  padding: 10px;
+  border: 3px solid rgb(255, 203, 0);
+  background-color: rgb(48, 38, 129);
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.informacao {
+  width: 90%;
+  max-width: 760px;
+  text-align: center;
+  border-left: 3px solid rgb(255, 203, 0);
+  border-radius: 25px;
+  margin: 5px auto;
+  padding: 10px;
+  background-color: rgb(7, 7, 90);
+}
+
+.informacao ul {
+  width: 100%;
+  max-width: 650px;
+  margin: auto 1px;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.informacao li {
+  margin-bottom: 8px;
+}
+
+#programacao table {
+  width: 100%;
+  max-width: 70vw;
+  margin: 15px auto;
+  border-collapse: collapse;
+  background-color: rgb(7, 7, 90);
+  border: 2px solid bisque;
+}
+
+#programacao th {
+  padding: 12px;
+  background-color: rgb(255, 203, 0);
+  color: rgb(48, 38, 129);
+  border: 3px solid bisque;
+  font-size: 18px;
+}
+
+#programacao td {
+  padding: 10px;
+  border: 3px solid bisque;
+  font-size: 16px;
+}
+
+#atividades .card {
+  text-align: left;
+  background-color: rgb(7, 7, 90);
+  margin: 10px;
+  padding: 10px;
+  border-left: 3px solid rgb(255, 203, 0);
+  border-radius: 25px;
+}
+
+#atividades h2 {
+  text-align: center;
+}
+
+.container {
+  display: block;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+button {
+  background-color: rgb(255, 203, 0);
+  border-radius: 15px;
+  padding: 5px;
+  color: rgb(48, 38, 129);
+}
+
+.rodape {
+  background-color: rgb(0, 156, 59);
+  color: bisque;
+  border-top: 5px solid rgb(255, 204, 0);
+  text-align: center;
+  padding: 25px;
+}
+
+#inscricao form {
+  max-width: 50vw;
+  margin: 30px auto;
+  background-color: rgb(7, 7, 90);
+  padding: 25px;
+  border-radius: 25px;
+  margin-top: 10px;
+  border-top: 3px solid rgb(255, 204, 0);
+}
+
+#inscricao label {
+  /* display: block; */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#inscricao input,
+#inscricao select,
+#inscricao textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid rgb(255, 204, 0);
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#inscricao input:focus,
+#inscricao select:focus,
+#inscricao textarea:focus {
+  border-color: rgb(0, 156, 59);
+}
+
+#inscricao textarea {
+  height: 120px;
+  resize: none;
+}
+
+.checkbox-container {
+  margin-bottom: 18px;
+}
+
+#inscricao #confirma {
+  width: auto;
+  padding: 0;
+  margin-right: 5px;
+}
+
+#inscricao .checkbox-container label {
+  display: inline;
+}
+
+h2,
+h3 {
+  color: rgb(0, 156, 59);
+}
